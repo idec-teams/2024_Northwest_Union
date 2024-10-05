@@ -1,11 +1,13 @@
-from flask_frozen import Freezer
+from os import path
+from pathlib import Path
 
-app = Flask(__name__)
-freezer = Freezer(app)
+from flask import Flask, render_template
+from flask_frozen import Freezer
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('temp/home.html')
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     freezer.freeze()
