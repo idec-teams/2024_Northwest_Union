@@ -25,7 +25,7 @@ jobs:
 
     - name: Build static files
       run: |
-        python app.py
+        FLASK_APP=app.py flask freeze
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
