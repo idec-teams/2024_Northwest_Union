@@ -17,7 +17,7 @@ def pages(page):
     return render_template(str(Path('pages')) + '/' + page.lower() + '.html')
 
 if __name__ == '__main__':
-    freezer.freeze()
+    Freezer.freeze()
     # app.run(port=8080,debug=True)
 
 
