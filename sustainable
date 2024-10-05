@@ -8,10 +8,10 @@
     <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
     <!-- Bootstrap CSS -->
-    <link href="/static/bootstrap.min.css" rel="stylesheet">
+    <link href="static/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/static/style.css" rel="stylesheet">
+    <link href="static/style.css" rel="stylesheet">
 
     <title>Sustainability | LZU-MEDICINE-CHINA - iGEM 2024</title>
 
@@ -34,7 +34,7 @@
 
         <!---- HOME ---->
         <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
 
         <!---- PROJECT ---->
@@ -43,9 +43,9 @@
             Project
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="/description">Description</a></li>
-            <li><a class="dropdown-item" href="/contribution">Contribution</a></li>
-            <li><a class="dropdown-item" href="/parts">Parts</a></li>
+            <li><a class="dropdown-item" href="description">Description</a></li>
+            <li><a class="dropdown-item" href="contribution">Contribution</a></li>
+            <li><a class="dropdown-item" href="parts">Parts</a></li>
           </ul>
         </li>
 
@@ -55,20 +55,20 @@
             Wet Lab
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="/engineering">Engineering</a></li>
+            <li><a class="dropdown-item" href="engineering">Engineering</a></li>
 
-            <li> <a class="dropdown-item" href="/results">Results</a></li>
+            <li> <a class="dropdown-item" href="results">Results</a></li>
 
-            <li><a class="dropdown-item" href="/hardware">Hardware</a></li>
-            <li> <a class="dropdown-item" href="/protocol">Protocol</a></li>
-            <li> <a class="dropdown-item" href="/notebook">Notebook</a></li>
+            <li><a class="dropdown-item" href="hardware">Hardware</a></li>
+            <li> <a class="dropdown-item" href="protocol">Protocol</a></li>
+            <li> <a class="dropdown-item" href="notebook">Notebook</a></li>
 
           </ul>
         </li>
 
         <!---- SAFETY ---->
         <li class="nav-item">
-          <a class="nav-link" href="/safety">Safety</a>
+          <a class="nav-link" href="safety">Safety</a>
         </li>
 
         <!---- HUMAN PRACTICES ---->
@@ -77,11 +77,11 @@
             Human Practices
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="/human-practices">Integrated Human practices</a></li>
-            <li> <a class="dropdown-item" href="/education">Education</a></li>
-            <li> <a class="dropdown-item" href="/sustainable">Sustainable Development Impact</a></li>
-            <li> <a class="dropdown-item" href="/entrepreneurship">Entrepreneurship</a></li>
-            <li> <a class="dropdown-item" href="/collaboration">Collaboration</a></li>
+            <li><a class="dropdown-item" href="human-practices">Integrated Human practices</a></li>
+            <li> <a class="dropdown-item" href="education">Education</a></li>
+            <li> <a class="dropdown-item" href="sustainable">Sustainable Development Impact</a></li>
+            <li> <a class="dropdown-item" href="entrepreneurship">Entrepreneurship</a></li>
+            <li> <a class="dropdown-item" href="collaboration">Collaboration</a></li>
           </ul>
         </li>
 
@@ -89,12 +89,12 @@
         
         <!---- TEAM ---->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/members" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="members" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Team
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="/members">Members</a></li>
-            <li><a class="dropdown-item" href="/attributions">Attributions</a></li>
+            <li><a class="dropdown-item" href="members">Members</a></li>
+            <li><a class="dropdown-item" href="attributions">Attributions</a></li>
           </ul>
         </li>
 
@@ -309,6 +309,6 @@
 
 
   <!-- Bootstrap Bundle with Popper -->
-  <script src="/static/bootstrap.bundle.min.js"></script>
+  <script src="static/bootstrap.bundle.min.js"></script>
 </body>
 </html>
