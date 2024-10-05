@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://static.igem.wiki/teams/5161/safety-anquan-1.ico"/>
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="static/style.css" rel="stylesheet">
+
+    <title>Hardware | LZU-MEDICINE-CHINA - iGEM 2024</title>
+
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+
+    <!---- TEAM NAME ---->
+    <a class="navbar-brand" href="#">LZU-MEDICINE-CHINA</a>
+
+    <!---- SMALL SCREEN MENU ICON ---->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto left-aligned">
+
+        <!---- HOME ---->
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <!---- PROJECT ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Project
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="description.html">Description</a></li>
+            <li><a class="dropdown-item" href="contribution.html">Contribution</a></li>
+            <li><a class="dropdown-item" href="parts.html">Parts</a></li>
+          </ul>
+        </li>
+
+        <!---- LAB ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Wet Lab
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="engineering.html">Engineering</a></li>
+
+            <li> <a class="dropdown-item" href="results.html">Results</a></li>
+
+            <li><a class="dropdown-item" href="hardware.html">Hardware</a></li>
+            <li> <a class="dropdown-item" href="protocol.html">Protocol</a></li>
+            <li> <a class="dropdown-item" href="notebook.html">Notebook</a></li>
+
+          </ul>
+        </li>
+
+        <!---- SAFETY ---->
+        <li class="nav-item">
+          <a class="nav-link" href="safety.html">Safety</a>
+        </li>
+
+        <!---- HUMAN PRACTICES ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Human Practices
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="human-practices.html">Integrated Human practices</a></li>
+            <li> <a class="dropdown-item" href="education.html">Education</a></li>
+            <li> <a class="dropdown-item" href="sustainable.html">Sustainable Development Impact</a></li>
+            <li> <a class="dropdown-item" href="entrepreneurship.html">Entrepreneurship</a></li>
+            <li> <a class="dropdown-item" href="collaboration.html">Collaboration</a></li>
+          </ul>
+        </li>
+
+
+        
+        <!---- TEAM ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="members.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Team
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="members.html">Members</a></li>
+            <li><a class="dropdown-item" href="attributions.html">Attributions</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Header -->
+  <header class="bg-hero py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">Hardware</h1>
+	        <p class="lead mb-5 text-white-50"></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+    
+
+<div class="row mt-4">
+    <div class="col">
+      <h2>1. Background</h2>
+      <hr>
+      <h3>How to Ensure the In Vivo Safety of Engineered Bacteria</h3>
+      <p>For a long time, the main challenges associated with the in vivo use of engineered bacteria have been the strategies for delivery and ensuring safety. In our vision, engineered bacteria need to be administered orally to enter the gut, cross the intestinal mucosal barrier, and then migrate into the bloodstream to reach the target tissues and organs, where they can exert their effects and ultimately be cleared. Achieving these functions solely with engineered bacteria is difficult. In this field, nanovesicles represent a promising and reliable solution. Various materials for encapsulating bacteria, such as fatty acid shells and chitosan, can wrap the bacteria internally, thereby reducing immunogenicity and limiting bacterial proliferation. After careful evaluation, we ultimately chose the nanovesicle strategy to encapsulate our engineered bacteria.
+
+      </p>
+      <h3>1,2-distearoyl-sn-glycero-3-phosphoethanolamine (DLPC)</h3>
+      <p>DLPC is an amphiphilic phospholipid analog with self-assembling properties that can automatically wrap around the surface of engineered bacteria to form a protective barrier, isolating immunogenic substances on the bacterial surface and preventing bacterial proliferation within the vesicles. To enhance the stability of the membrane, we added lecithin to the material. These nanovesicles allow small molecules and some peptides to pass freely through.
+
+      </p>
+      <h3>Why did we choice DLPC</h3>
+      <p>DLPC has several advantages that make it suitable for potential large-scale production of engineered bacteria. Firstly, it has a relatively low cost, with a price per gram not exceeding $100. This makes it economically feasible for scaling up production. Secondly, DLPC exhibits calcium ion concentration-dependent self-assembly properties, which make the process of wrapping bacteria simpler and faster. These characteristics contribute to the feasibility and efficiency of using DLPC for encapsulating engineered bacteria.
+
+      </p>
+    </div>
+  </div>
+
+
+  <div class="row mt-4">
+    <div class="col">
+      <h2>2. Experiment</h2>
+      <hr>
+      <h3>Methods</h3>
+      <p>Preparation and characterization of nanovesicles. Nanovesicles was prepared according to the previously reported method. In detail, Engineered was grown in LB medium overnight at 37 ℃ and then centrifuged at 5000 rpm for 5 min. The cell precipitates were rinsed twice with sterile PBS and suspended in 1 mL sterile PBS to achieve the desired concentration. After that, the lipid membrane was prepared by thin film dispersion method. 2 mL of cholesterol (1.24 mg mL-1 ), DLPC (3 mg mL-1 ) and DSPE-PEG2000 (1 mg mL-1 ) were mixed in chloroform. Then, the solution was dried at room temperature by a rotary evaporator and the transparent lipid film was obtained. The bacterial solution containing 12.5 mM CaCl2 was hydrated in the lipid film, and was incubated for 30 min at 37 ℃. 
+
+      </p>
+      <h3>Result</h3>
+      <p>Transmission electron microscopy (TEM) images of DLPC-encapsulated engineered bacteria were obtained. It can be observed that there is a vesicle-like structure on the outer surface of the engineered bacteria, which corresponds to the DLPC membrane. When the engineered bacteria and DLPC-encapsulated engineered bacteria were separately plated on L.B. solid agar plates, it was evident that the engineered bacteria grew normally, while the colony count of the DLPC-encapsulated engineered bacteria was significantly reduced, indicating that the vesicles prevented the majority of the engineered bacteria from proliferating. Viability staining results showed that the DLPC-encapsulated engineered bacteria retained normal activity.
+
+      </p>
+     <img alt="picture-1" class="rounded mx-auto d-block" src="https://static.igem.wiki/teams/5161/hardware/image1.webp">
+     <img alt="picture-2" class="rounded mx-auto d-block" src="https://static.igem.wiki/teams/5161/hardware/image2.webp">
+
+    </div>
+  </div>
+
+
+
+  </div>
+
+  <div class="home" style="position:relative;top:-3rem;overflow-x: hidden;">
+    
+  </div>
+
+  <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
+  <footer class="pt-5 pb-5 footer py-5 mt-5 bg-dark text-white">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-lg-8 col-xs-12">
+        <h4 class="mb-3">About Us</h4>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12 text-center">
+            <img src="https://static.igem.wiki/teams/4156/wiki/logo-lzu.png" height="100px" class="mr-4">
+            <a>Lanzhou University</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12" style="    position: relative;
+    left: 45px;">
+            <img src="https://static.igem.wiki/teams/5161/footer/footerlogo2.png" height="100px" class="mr-4">
+            <a>School of Stomatology Lanzhou University</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12" style="    position: relative;
+    left: 45px;">
+            <img src="https://static.igem.wiki/teams/5161/footer/footer.png" height="100px" class="mr-4">
+            <a>School of Stomatology Lanzhou University</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12 text-center">
+            <img src="https://static.igem.wiki/teams/4156/wiki/logo-impact-small.png" height="100px" class="mr-4">
+            <a>Research Corporation Technologies</a>
+          </div>
+          <div class="col-lg-6 col-xs-12">
+            <img src="https://static.igem.wiki/teams/4156/wiki/matlab-logo.png" height="100px" class="mr-4">
+            <a>Matlab</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-xs-12">
+        <h4 class="mt-lg-0 mt-sm-4 mb-3">Contact</h4>
+        <p>No. 222, Tianshui South Road, Chengguan District, Lanzhou City, Gansu Province,730000, P. R. China.</p>
+        <p><b>E-mail:</b> <a href="mailto:11@lzu.edu.cn">susu2969@foxmail.com</a></p>
+      </div>
+    </div>
+    <hr>
+    <!-- The following MUST be on every page: license information and link to the repository on gitlab.igem.org -->
+    <div class="row mt-4">
+      <div class="col">
+        <p class="mb-0"><small>© 2024 - Content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small></p>
+	      <p><small>The repository used to create this website is available at <a href="https://gitlab.igem.org/2024/lzu-medicine-china">gitlab.igem.org/2024/lzu-medicine-china</a>.</small></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="static/bootstrap.bundle.min.js"></script>
+</body>
+</html>
