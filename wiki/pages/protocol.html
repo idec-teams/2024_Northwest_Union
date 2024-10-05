@@ -1,0 +1,97 @@
+{% extends "layout.html" %}
+  
+{% block title %}Protocol{% endblock %}
+{% block lead %}{% endblock %}
+
+{% block page_content %}
+<div class="row mt-4">
+    <div class="col">
+      <h2></h2>
+      <hr>
+  
+        <ul>
+    <li>
+      <h4><strong>Materials</strong></h4>
+      <p>L.B. liquid culture medium dry powder, agar powder</p>
+      <p>Glucose</p>
+      <p>Kanamycin</p>
+      <p>1,2-distearoyl-sn-glycero-3-phosphoethanolamine</p>
+      <p>1,2-distearoyl-sn-glycero-3-phosphoethanolamine-polyethylene glycol (DSPE-PEG)</p>
+      <p>Lecithin</p>
+      <p>calcium chloride</p>
+      <p>SDS-PAGE pre-made gel kit</p>
+      <p>His antibody (rabbit)</p>
+      <p>Flag antibody (rabbit)</p>
+      <p>anti-rabbit secondary antibody</p>
+      <p>agarose (dry powder)</p>
+      <p>lasmid DNA extraction kit</p>
+      <p>restriction endonuclease kit</p>
+      <p>bacterial viability staining kit</p>
+      <p>bacterial viability (CCK-8) kit</p>
+      <p>GLP-1 ELISA kit</p>
+    </li>
+      <li>
+      <h4><strong>Bacterial culture</strong></h4>
+      <p>First, prepare sterile L.B. liquid medium and solid agar plates. The L.B. liquid medium (dry powder) is mixed with deionized water at a concentration of 25 g/L and different concentrations of glucose (0, 2, 5, 8, 11 mmol/L), then brought to a final volume of 500 mL and sterilized at 121°C under high pressure for 30 minutes to obtain sterile medium. For solid agar plates, add 15 g/L of agar powder to the previously described liquid medium solution, sterilize it for the same amount of time, and pour the hot medium into plates, allowing it to cool before use.</p>
+      <p>Since our laboratory has stored the ENC1917 strain (purchased from a commercial cell bank in 2023), we thaw the strain according to the protocol and inoculate it into L.B. liquid medium containing 11 mmol/L glucose, followed by incubating at a constant temperature with shaking for 8 hours. After that, we dilute the culture by a factor of 10^7 and spread the diluted solution onto L.B. solid agar plates, then incubate at a constant temperature for 48 hours to amplify the colonies. In the subsequent experiments, we will obtain the required ECN1917 bacteria from these plates.
+
+      </p>
+    </li>
+    <li>
+        <h4><strong>Plasmid transformation</strong></h4>
+        <ul>
+            <li>1. Take 1.5 ml of log phase bacterial solution with OD600=0.6 and place on ice for 10 minutes. Centrifuge at 1500g for 5 minutes at 4°C and discard the supernatant. Bacteria were resuspended using 1.5 ml of 10% pre-cooled glycerol solution and centrifuged again. Bacteria were resuspended using 750ul of pre-cooled glycerol solution and centrifuged again. Resuspend the organisms using 40ul of pre-cooled glycerol solution.</li>
+
+            <li>2. Add 1ul of plasmid solution and blow gently to homogenize.</li>
+            <li>3. Add the mixed solution into the pre-cooled dry electrotransfer cup, and put the cup into the electrotransfer apparatus for electroshock transformation.</li>
+            <li>4. Quickly add the transformed bacterial solution into 1ml L.B. liquid medium.</li>
+            <li>5. The bacteria were collected by centrifugation after 1 hour of incubation in a constant temperature shaker at 37 ℃ and resuspended using L.B. liquid medium.</li>
+            <li>6. Incubate in a constant temperature shaker at 37°C for 12 hours to amplify the plasmid.</li>
+
+        </ul>
+    </li>
+
+
+    <li>
+        <h4><strong>Screening of recombinant bacteria</strong></h4>
+        <p>Dilute the electroporated bacterial suspension after 12 hours of culture and spread it onto L.B. solid agar plates (with 200 µg/ml kanamycin), then incubate for 48 hours to observe the colonies. Afterward, pick individual colonies surviving on the antibiotic plates for restriction enzyme identification.</p>
+
+        <p>For the identification of recombinant plasmids, we extracted plasmids from previously amplified recombinant bacteria using a bacterial DNA extraction kit, following the provided protocol. Subsequently, the plasmid solution was incubated with the restriction endonucleases BspDI and PuvI at 37°C for 5 minutes. The digested plasmids were then separated by agarose gel electrophoresis to verify the presence of the expected plasmid structure in the recombinant bacteria.
+</p>
+    </li>
+    <li>
+        <h4><strong>Synthesis of DLPC-encapsulated engineered bacteria.</strong></h4>
+        <p>Preparation and characterization of nanovesicles. Nanovesicles was prepared according to the previously reported method. In detail, Engineered was grown in LB medium overnight at 37 ℃ and then centrifuged at 5000 rpm for 5 min. The cell precipitates were rinsed twice with sterile PBS and suspended in 1 mL sterile PBS to achieve the desired concentration. After that, the lipid membrane was prepared by thin film dispersion method. 2 mL of cholesterol (1.24 mg mL-1 ), DLPC (3 mg mL-1 ) and DSPE-PEG2000 (1 mg mL-1 ) were mixed in chloroform. Then, the solution was dried at room temperature by a rotary evaporator and the transparent lipid film was obtained. The bacterial solution containing 12.5 mM CaCl2 was hydrated in the lipid film, and was incubated for 30 min at 37 ℃. </p>
+
+    </li>
+    <li>
+        <h4><strong>Expression detection of target gene</strong></h4>
+        <ul>
+            <li>1. Prepare the lysate: add 10ul of each protease inhibitor and PMSF to 1ml of cold lysate. mix well and set aside on ice.</li>
+            <li>2. weigh the organisms wet weight. Add the newly configured lysate according to the ratio (1g: 10ml) and mix well. Ultrasonic fragmentation was carried out under ice bath conditions with 3 seconds of sonication time and 3 seconds of interval for a total time of 45 minutes.</li>
+
+            <li>3. Centrifuge at 10,000 rpm for 20 min at 4°C. Collect the supernatant into a new sterile test tube.</li>
+            <li>4. Determine the protein concentration in the supernatant using the BCA Protein Concentration Assay Kit.</li>
+            <li>5. Western-blot assay: collect the logarithmic phase bacterial fluid and centrifuge at 10000rpm for 5 minutes. The supernatant was taken and precipitated for colony counting. The negative control group, positive control group, and the transformant endogenous reference protein BCoAT as well as Recombinant GLP-1 protein expression were detected using Western-blot assay with anti-His tag and anti-Flag tag as antibodies.</li>
+            <li>6. Determination of secretory proteins: The supernatant was filtered through 0.22um filter membrane. Secreted protein expression was determined according to the instructions of the GLP-1 ELISA kit.</li>
+
+        </ul>
+    </li>
+    <li>
+        <h4><strong>Bacterial viability assay</strong></h4>
+        <p>In this project, we used the CCK-8 bacterial viability assay and the DMAO/PI bacterial viability and death staining method for bacterial activity assessment. Specifically, we cultured the chassis bacteria and engineered bacteria for the same duration until the logarithmic growth phase. We then added 90 µL of the bacterial suspension and 10 µL of CCK-8 solution to a 96-well cell culture plate and incubated it in the dark at 37°C for 30 minutes. After incubation, we measured the absorbance at 450 nm using a microplate reader.</p>
+        <p>For the viability and death staining, the logarithmic phase bacterial suspension was diluted 1:1,000,000 and mixed with DMAO and PI solution (at a 1:1000 dilution ratio). After incubating in the dark at 37°C for 30 minutes, we used a laser confocal microscope to capture images in both the red and green channels.
+
+        </p>
+
+    </li>
+    <li>
+        <h4><strong>Transmission electron microscopy (TEM)</strong></h4>
+        <p>We diluted the DLPC-encapsulated engineered bacteria to a concentration of 10,000 CFU/mL. Then, we took 10 µL of the bacterial suspension and dropped it onto a copper grid suitable for electron microscopy. After allowing it to air dry naturally, we added 10 µL of a 1 mg/mL tungsten phosphoric acid solution and let it air dry again. Microscopic images were captured using an F-30 transmission electron microscope.</p>
+        
+    </li>
+        </ul>
+  
+    </div>
+  </div>
+{% endblock %}
