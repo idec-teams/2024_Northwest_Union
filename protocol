@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://static.igem.wiki/teams/5161/safety-anquan-1.ico"/>
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="/static/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/static/style.css" rel="stylesheet">
+
+    <title>Protocol | LZU-MEDICINE-CHINA - iGEM 2024</title>
+
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+
+    <!---- TEAM NAME ---->
+    <a class="navbar-brand" href="#">LZU-MEDICINE-CHINA</a>
+
+    <!---- SMALL SCREEN MENU ICON ---->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto left-aligned">
+
+        <!---- HOME ---->
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+
+        <!---- PROJECT ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Project
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/description">Description</a></li>
+            <li><a class="dropdown-item" href="/contribution">Contribution</a></li>
+            <li><a class="dropdown-item" href="/parts">Parts</a></li>
+          </ul>
+        </li>
+
+        <!---- LAB ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Wet Lab
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/engineering">Engineering</a></li>
+
+            <li> <a class="dropdown-item" href="/results">Results</a></li>
+
+            <li><a class="dropdown-item" href="/hardware">Hardware</a></li>
+            <li> <a class="dropdown-item" href="/protocol">Protocol</a></li>
+            <li> <a class="dropdown-item" href="/notebook">Notebook</a></li>
+
+          </ul>
+        </li>
+
+        <!---- SAFETY ---->
+        <li class="nav-item">
+          <a class="nav-link" href="/safety">Safety</a>
+        </li>
+
+        <!---- HUMAN PRACTICES ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Human Practices
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/human-practices">Integrated Human practices</a></li>
+            <li> <a class="dropdown-item" href="/education">Education</a></li>
+            <li> <a class="dropdown-item" href="/sustainable">Sustainable Development Impact</a></li>
+            <li> <a class="dropdown-item" href="/entrepreneurship">Entrepreneurship</a></li>
+            <li> <a class="dropdown-item" href="/collaboration">Collaboration</a></li>
+          </ul>
+        </li>
+
+
+        
+        <!---- TEAM ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/members" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Team
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/members">Members</a></li>
+            <li><a class="dropdown-item" href="/attributions">Attributions</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Header -->
+  <header class="bg-hero py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">Protocol</h1>
+	        <p class="lead mb-5 text-white-50"></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+    
+<div class="row mt-4">
+    <div class="col">
+      <h2></h2>
+      <hr>
+  
+        <ul>
+    <li>
+      <h4><strong>Materials</strong></h4>
+      <p>L.B. liquid culture medium dry powder, agar powder</p>
+      <p>Glucose</p>
+      <p>Kanamycin</p>
+      <p>1,2-distearoyl-sn-glycero-3-phosphoethanolamine</p>
+      <p>1,2-distearoyl-sn-glycero-3-phosphoethanolamine-polyethylene glycol (DSPE-PEG)</p>
+      <p>Lecithin</p>
+      <p>calcium chloride</p>
+      <p>SDS-PAGE pre-made gel kit</p>
+      <p>His antibody (rabbit)</p>
+      <p>Flag antibody (rabbit)</p>
+      <p>anti-rabbit secondary antibody</p>
+      <p>agarose (dry powder)</p>
+      <p>lasmid DNA extraction kit</p>
+      <p>restriction endonuclease kit</p>
+      <p>bacterial viability staining kit</p>
+      <p>bacterial viability (CCK-8) kit</p>
+      <p>GLP-1 ELISA kit</p>
+    </li>
+      <li>
+      <h4><strong>Bacterial culture</strong></h4>
+      <p>First, prepare sterile L.B. liquid medium and solid agar plates. The L.B. liquid medium (dry powder) is mixed with deionized water at a concentration of 25 g/L and different concentrations of glucose (0, 2, 5, 8, 11 mmol/L), then brought to a final volume of 500 mL and sterilized at 121°C under high pressure for 30 minutes to obtain sterile medium. For solid agar plates, add 15 g/L of agar powder to the previously described liquid medium solution, sterilize it for the same amount of time, and pour the hot medium into plates, allowing it to cool before use.</p>
+      <p>Since our laboratory has stored the ENC1917 strain (purchased from a commercial cell bank in 2023), we thaw the strain according to the protocol and inoculate it into L.B. liquid medium containing 11 mmol/L glucose, followed by incubating at a constant temperature with shaking for 8 hours. After that, we dilute the culture by a factor of 10^7 and spread the diluted solution onto L.B. solid agar plates, then incubate at a constant temperature for 48 hours to amplify the colonies. In the subsequent experiments, we will obtain the required ECN1917 bacteria from these plates.
+
+      </p>
+    </li>
+    <li>
+        <h4><strong>Plasmid transformation</strong></h4>
+        <ul>
+            <li>1. Take 1.5 ml of log phase bacterial solution with OD600=0.6 and place on ice for 10 minutes. Centrifuge at 1500g for 5 minutes at 4°C and discard the supernatant. Bacteria were resuspended using 1.5 ml of 10% pre-cooled glycerol solution and centrifuged again. Bacteria were resuspended using 750ul of pre-cooled glycerol solution and centrifuged again. Resuspend the organisms using 40ul of pre-cooled glycerol solution.</li>
+
+            <li>2. Add 1ul of plasmid solution and blow gently to homogenize.</li>
+            <li>3. Add the mixed solution into the pre-cooled dry electrotransfer cup, and put the cup into the electrotransfer apparatus for electroshock transformation.</li>
+            <li>4. Quickly add the transformed bacterial solution into 1ml L.B. liquid medium.</li>
+            <li>5. The bacteria were collected by centrifugation after 1 hour of incubation in a constant temperature shaker at 37 ℃ and resuspended using L.B. liquid medium.</li>
+            <li>6. Incubate in a constant temperature shaker at 37°C for 12 hours to amplify the plasmid.</li>
+
+        </ul>
+    </li>
+
+
+    <li>
+        <h4><strong>Screening of recombinant bacteria</strong></h4>
+        <p>Dilute the electroporated bacterial suspension after 12 hours of culture and spread it onto L.B. solid agar plates (with 200 µg/ml kanamycin), then incubate for 48 hours to observe the colonies. Afterward, pick individual colonies surviving on the antibiotic plates for restriction enzyme identification.</p>
+
+        <p>For the identification of recombinant plasmids, we extracted plasmids from previously amplified recombinant bacteria using a bacterial DNA extraction kit, following the provided protocol. Subsequently, the plasmid solution was incubated with the restriction endonucleases BspDI and PuvI at 37°C for 5 minutes. The digested plasmids were then separated by agarose gel electrophoresis to verify the presence of the expected plasmid structure in the recombinant bacteria.
+</p>
+    </li>
+    <li>
+        <h4><strong>Synthesis of DLPC-encapsulated engineered bacteria.</strong></h4>
+        <p>Preparation and characterization of nanovesicles. Nanovesicles was prepared according to the previously reported method. In detail, Engineered was grown in LB medium overnight at 37 ℃ and then centrifuged at 5000 rpm for 5 min. The cell precipitates were rinsed twice with sterile PBS and suspended in 1 mL sterile PBS to achieve the desired concentration. After that, the lipid membrane was prepared by thin film dispersion method. 2 mL of cholesterol (1.24 mg mL-1 ), DLPC (3 mg mL-1 ) and DSPE-PEG2000 (1 mg mL-1 ) were mixed in chloroform. Then, the solution was dried at room temperature by a rotary evaporator and the transparent lipid film was obtained. The bacterial solution containing 12.5 mM CaCl2 was hydrated in the lipid film, and was incubated for 30 min at 37 ℃. </p>
+
+    </li>
+    <li>
+        <h4><strong>Expression detection of target gene</strong></h4>
+        <ul>
+            <li>1. Prepare the lysate: add 10ul of each protease inhibitor and PMSF to 1ml of cold lysate. mix well and set aside on ice.</li>
+            <li>2. weigh the organisms wet weight. Add the newly configured lysate according to the ratio (1g: 10ml) and mix well. Ultrasonic fragmentation was carried out under ice bath conditions with 3 seconds of sonication time and 3 seconds of interval for a total time of 45 minutes.</li>
+
+            <li>3. Centrifuge at 10,000 rpm for 20 min at 4°C. Collect the supernatant into a new sterile test tube.</li>
+            <li>4. Determine the protein concentration in the supernatant using the BCA Protein Concentration Assay Kit.</li>
+            <li>5. Western-blot assay: collect the logarithmic phase bacterial fluid and centrifuge at 10000rpm for 5 minutes. The supernatant was taken and precipitated for colony counting. The negative control group, positive control group, and the transformant endogenous reference protein BCoAT as well as Recombinant GLP-1 protein expression were detected using Western-blot assay with anti-His tag and anti-Flag tag as antibodies.</li>
+            <li>6. Determination of secretory proteins: The supernatant was filtered through 0.22um filter membrane. Secreted protein expression was determined according to the instructions of the GLP-1 ELISA kit.</li>
+
+        </ul>
+    </li>
+    <li>
+        <h4><strong>Bacterial viability assay</strong></h4>
+        <p>In this project, we used the CCK-8 bacterial viability assay and the DMAO/PI bacterial viability and death staining method for bacterial activity assessment. Specifically, we cultured the chassis bacteria and engineered bacteria for the same duration until the logarithmic growth phase. We then added 90 µL of the bacterial suspension and 10 µL of CCK-8 solution to a 96-well cell culture plate and incubated it in the dark at 37°C for 30 minutes. After incubation, we measured the absorbance at 450 nm using a microplate reader.</p>
+        <p>For the viability and death staining, the logarithmic phase bacterial suspension was diluted 1:1,000,000 and mixed with DMAO and PI solution (at a 1:1000 dilution ratio). After incubating in the dark at 37°C for 30 minutes, we used a laser confocal microscope to capture images in both the red and green channels.
+
+        </p>
+
+    </li>
+    <li>
+        <h4><strong>Transmission electron microscopy (TEM)</strong></h4>
+        <p>We diluted the DLPC-encapsulated engineered bacteria to a concentration of 10,000 CFU/mL. Then, we took 10 µL of the bacterial suspension and dropped it onto a copper grid suitable for electron microscopy. After allowing it to air dry naturally, we added 10 µL of a 1 mg/mL tungsten phosphoric acid solution and let it air dry again. Microscopic images were captured using an F-30 transmission electron microscope.</p>
+        
+    </li>
+        </ul>
+  
+    </div>
+  </div>
+
+  </div>
+
+  <div class="home" style="position:relative;top:-3rem;overflow-x: hidden;">
+    
+  </div>
+
+  <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
+  <footer class="pt-5 pb-5 footer py-5 mt-5 bg-dark text-white">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-lg-8 col-xs-12">
+        <h4 class="mb-3">About Us</h4>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12 text-center">
+            <img src="https://static.igem.wiki/teams/4156/wiki/logo-lzu.png" height="100px" class="mr-4">
+            <a>Lanzhou University</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12" style="    position: relative;
+    left: 45px;">
+            <img src="https://static.igem.wiki/teams/5161/footer/footerlogo2.png" height="100px" class="mr-4">
+            <a>School of Stomatology Lanzhou University</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12" style="    position: relative;
+    left: 45px;">
+            <img src="https://static.igem.wiki/teams/5161/footer/footer.png" height="100px" class="mr-4">
+            <a>School of Stomatology Lanzhou University</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12 text-center">
+            <img src="https://static.igem.wiki/teams/4156/wiki/logo-impact-small.png" height="100px" class="mr-4">
+            <a>Research Corporation Technologies</a>
+          </div>
+          <div class="col-lg-6 col-xs-12">
+            <img src="https://static.igem.wiki/teams/4156/wiki/matlab-logo.png" height="100px" class="mr-4">
+            <a>Matlab</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-xs-12">
+        <h4 class="mt-lg-0 mt-sm-4 mb-3">Contact</h4>
+        <p>No. 222, Tianshui South Road, Chengguan District, Lanzhou City, Gansu Province,730000, P. R. China.</p>
+        <p><b>E-mail:</b> <a href="mailto:11@lzu.edu.cn">susu2969@foxmail.com</a></p>
+      </div>
+    </div>
+    <hr>
+    <!-- The following MUST be on every page: license information and link to the repository on gitlab.igem.org -->
+    <div class="row mt-4">
+      <div class="col">
+        <p class="mb-0"><small>© 2024 - Content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small></p>
+	      <p><small>The repository used to create this website is available at <a href="https://gitlab.igem.org/2024/lzu-medicine-china">gitlab.igem.org/2024/lzu-medicine-china</a>.</small></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="/static/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://static.igem.wiki/teams/5161/safety-anquan-1.ico"/>
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="/static/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/static/style.css" rel="stylesheet">
+
+    <title>Contribution | LZU-MEDICINE-CHINA - iGEM 2024</title>
+
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+
+    <!---- TEAM NAME ---->
+    <a class="navbar-brand" href="#">LZU-MEDICINE-CHINA</a>
+
+    <!---- SMALL SCREEN MENU ICON ---->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto left-aligned">
+
+        <!---- HOME ---->
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+
+        <!---- PROJECT ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Project
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/description">Description</a></li>
+            <li><a class="dropdown-item" href="/contribution">Contribution</a></li>
+            <li><a class="dropdown-item" href="/parts">Parts</a></li>
+          </ul>
+        </li>
+
+        <!---- LAB ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Wet Lab
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/engineering">Engineering</a></li>
+
+            <li> <a class="dropdown-item" href="/results">Results</a></li>
+
+            <li><a class="dropdown-item" href="/hardware">Hardware</a></li>
+            <li> <a class="dropdown-item" href="/protocol">Protocol</a></li>
+            <li> <a class="dropdown-item" href="/notebook">Notebook</a></li>
+
+          </ul>
+        </li>
+
+        <!---- SAFETY ---->
+        <li class="nav-item">
+          <a class="nav-link" href="/safety">Safety</a>
+        </li>
+
+        <!---- HUMAN PRACTICES ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Human Practices
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/human-practices">Integrated Human practices</a></li>
+            <li> <a class="dropdown-item" href="/education">Education</a></li>
+            <li> <a class="dropdown-item" href="/sustainable">Sustainable Development Impact</a></li>
+            <li> <a class="dropdown-item" href="/entrepreneurship">Entrepreneurship</a></li>
+            <li> <a class="dropdown-item" href="/collaboration">Collaboration</a></li>
+          </ul>
+        </li>
+
+
+        
+        <!---- TEAM ---->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/members" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Team
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/members">Members</a></li>
+            <li><a class="dropdown-item" href="/attributions">Attributions</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Header -->
+  <header class="bg-hero py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">Contribution</h1>
+	        <p class="lead mb-5 text-white-50"></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+    
+
+<div class="row mt-4">
+  <div class="col">
+    <h2>Enhancement of Existing Components</h2>
+    <hr>
+    <p>We engineered the GLP-1 recombinant protein by incorporating PelB as a signal peptide to augment its extracellular secretion functionality. DnaK, serving as a pivotal protein in glycemic control, is expressed at the C-terminus of GLP-1 via flexible linker peptides to facilitate its programmed release. The controllable apoptosis of bacteria is achieved through the implementation of the arabinose operon alongside a downstream toxin-antitoxin suicide switch, thereby enhancing biosafety.
+      </p>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col">
+    <h2>Novel Components for Escherichia coli</h2>
+    <hr>
+    <p>To introduce a more diverse array of glycemic regulation mechanisms, we utilized ECN1917 as a chassis and introduced novel components encoding the Bcoat gene (β-carboxyl-CoA transferase gene), along with segments that confer the ability to secrete GLP-1. 
+      This modulation aims to regulate the gut microbiota, thereby enhancing the synthesis of short-chain fatty acids (SCFAs) in the intestinal environment and promoting GLP-1 secretion to indirectly modulate blood glucose levels.
+      </p>
+      <img alt="picture-1" class="rounded mx-auto d-block" src="https://static.igem.wiki/teams/5161/contributions/change1.webp">
+
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col">
+    <h2>Innovative Approaches to Control System Design</h2>
+    <hr>
+    <p>We fused the key protein DnaK, which contributes to bacterial retention resistance, with GLP-1.</p>
+    <figure class="figure">
+      <img src="https://static.igem.wiki/teams/5161/contributions/change2.webp" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" style="width:30vw">
+      <figcaption class="figure-caption">(The specific composition of the inserted gene. )</figcaption>
+    </figure>  
+    
+    <p>In hyperglycemic conditions, glucose is internalized by the bacteria and utilized for aerobic respiration, resulting in an increased production of ATP. This elevation in ATP concentration diminishes the affinity of ClpB-Dnak, leading to the disaggregation of the GLP-1 recombinant protein and its subsequent release into the extracellular milieu. Conversely, in hypoglycemic conditions, the ATP to ADP ratio decreases, causing the GLP-1 recombinant protein to reassemble, thereby halting extracellular secretion. </p>
+    <figure class="figure">
+      <img src="https://static.igem.wiki/teams/5161/contributions/change3.webp" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" style="width:30vw">
+      <figcaption class="figure-caption">(The process of engineered bacteria secreting GLP-1.)</figcaption>
+    </figure>  
+    <figure class="figure">
+      <img src="https://static.igem.wiki/teams/5161/contributions/change4.webp" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" style="width:30vw">
+      <figcaption class="figure-caption">(The encapsulated GLP-1 enters the bloodstream through intestinal mucosal epithelial cells. )</figcaption>
+    </figure>  
+<p>Furthermore, to ensure the designed probiotics can effectively enter the circulatory system and accumulate in specific organs, we devised a targeted delivery system. This system is essentially a vesicle composed of DLPC membranes, which possess the ability to penetrate the intestinal epithelial barrier and selectively target organs such as the liver and pancreas. Ultimately, GLP-1 and short-chain fatty acids will collaboratively target the LBK-1/AMPK/Insig signaling pathway to inhibit lipogenesis.</p>
+<img alt="picture-5" class="rounded mx-auto d-block" src="https://static.igem.wiki/teams/5161/contributions/change5.webp">
+
+</div>
+</div>
+
+
+<div class="row mt-4">
+  <div class="col">
+    <h2>BioBrick Parts</h2>
+    <hr>
+    <p>Our Composite Part is an improved part of the 2024 Squirrel-CHN iGEM team Pel-GLP-1 Coding.</p>
+    <strong>Part:BBa_K5161003 <br>
+      GLP-1 Recombinant Protein
+      </strong>
+    <p>The recombinant protein includes the GLP-1 fragment, pelB, Dnak, a flexible linker peptide sequence, and a Flag tag sequence.It is also an improved part of the 2024 Squirrel-CHN iGEM team Pel-GLP-1 Coding.</p>
+    
+    <h3>Usage and Biology</h3>
+    <p>In this project, the purpose of designing the GLP-1 recombinant protein is to improve the adaptability and flexibility of Pel-GLP-1 Coding achieving glucose concentration-responsive functional release of GLP-1. Specifically, the release switch for GLP-1 is activated when blood glucose levels rise, lowering the glucose levels, and turned off when glucose levels are low. The recombinant protein includes the GLP-1 fragment, pelB, Dnak, a flexible linker peptide sequence, and a Flag tag sequence. As mentioned, pelB serves as a signal sequence to direct GLP-1 for extracellular secretion. Dnak is the core component of the glucose regulatory switch(You can learn more about it on 2024 LZU-MEDICINE-CHINA iGEM team DnaK).The mechanism of its action: When glucose concentrations rise, the increased internal glucose accelerates metabolism, elevating the ATP/ADP ratio, which weakens the chaperone interaction between Dnak and ClpB. The reduced binding affinity leads to the disassembly of the recombinant protein, guiding its release into the extracellular space.</p>
+    <h3>Modulation and Holisticness</h3>
+    <p>The components of the recombinant protein originate from different organisms, as previously mentioned. Each part is selected to fulfill a specific role, ensuring the overall functionality and responsiveness of the protein in regulating blood glucose levels.</p>
+    <h3>Careful Design</h3>
+    <p>In the design of the recombinant sequence, we considered the positioning of each segment to optimize glucose regulation functionality. PelB is placed at the N-terminus to facilitate the secretion of GLP-1. Following that is the GLP-1 sequence, which serves as the core component for glucose regulation. After the GLP-1 sequence, we included a flexible linker peptide sequence (GGGSGGGSGGGS) to ensure a smooth transition to the Dnak sequence. Following Dnak, we added a 3xFlag tag for identification of the recombinant protein expression. Finally, we rechecked the sequence to ensure there are no secondary structure issues or sequence repetitions that could affect expression.</p>
+    <h3>Characterization</h3>
+    
+    <img alt="picture-6" class="rounded mx-auto d-block" src="https://static.igem.wiki/teams/5161/contributions/change6.webp">
+    <p>The Western blot results clearly demonstrate that the GLP-1 recombinant protein was successfully detected in both the unmodified and DLPC vesicle-encapsulated engineered bacterial supernatants. This finding is of significant importance as it provides evidence of the presence of the target protein in these different sample conditions. The measured molecular weight of the GLP-1 recombinant protein is determined to be in the range of 74 - 76 kDa. This precise molecular weight characterization is crucial for further analysis and understanding of the protein's properties and functions. It allows for comparison with the expected molecular weight based on its amino acid sequence and any post-translational modifications that may occur. Additionally, the knowledge of the protein's molecular weight in this context can assist in identifying potential interactions or conformational changes that might be associated with its encapsulation in the DLPC vesicles compared to its unmodified state in the bacterial supernatants. Overall, these results lay a solid foundation for further investigations into the biological activity, stability, and potential applications of the GLP-1 recombinant protein in various biomedical and research settings.</p>
+    <img alt="picture-7" class="rounded mx-auto d-block" src="https://static.igem.wiki/teams/5161/contributions/change7.webp">
+    <p>The results of the glucose gradient cultivation clearly indicate that, within the same time scale of 12 hours, the concentration of the GLP-1 recombinant protein in the supernatant of the engineered bacteria shows a notable increase as the initial glucose concentration in the medium rises. The secretion level of the GLP-1 recombinant protein from the unmodified engineered bacteria is remarkably higher compared to that from the DLPC-encapsulated engineered bacteria. This finding strongly demonstrates that the GLP-1 recombinant protein possesses a distinct functionality of release that is dependent on the glucose concentration. It implies that the presence and amount of glucose in the environment can significantly influence the release behavior of the GLP-1 recombinant protein, which is an important characteristic that may have implications for various applications in the fields of biotechnology and medicine. For example, this glucose concentration-dependent release functionality could potentially be utilized in the development of new drug delivery systems or in the study of metabolic pathways related to glucose regulation. Further research could explore the underlying mechanisms of this dependency and how it can be optimized to achieve more precise and effective control over the release of the GLP-1 recombinant protein. Overall, these results open up new avenues for investigating the interaction between glucose and the engineered bacteria producing the GLP-1 recombinant protein and hold great promise for future advancements in related scientific and medical research.</p>
+     </div>
+</div>
+
+
+<div class="row mt-4">
+  <div class="col">
+    <h2>Educational Outcomes</h2>
+    <hr>
+    <p>We disseminated knowledge regarding synthetic biology and preventive strategies for type 2 diabetes through various new media platforms. We established a WeChat public account to share daily insights on cutting-edge research and forums related to synthetic biology competitions. </p>
+     
+    <figure class="figure">
+      <img alt="picture-8" class="rounded mx-auto d-block" src="https://static.igem.wiki/teams/5161/contributions/change8.webp">
+      <figcaption class="figure-caption">(The demonstration of the publicity achievements of new media. )</figcaption>
+    </figure>  
+<p>In Lanzhou, we initiated an exercise check-in reward program tailored for the obese population, creating team-specific stationery that was distributed free of charge to students in economically disadvantaged areas. Additionally, we actively engaged with local communities to conduct comprehensive awareness campaigns on the early prevention and treatment of diabetes, thereby enhancing public understanding of type 2 diabetes and encouraging lifestyle modifications to prevent its onset.</p>
+<figure class="figure">
+  <img alt="picture-9" class="rounded mx-auto d-block" src="https://static.igem.wiki/teams/5161/contributions/change9.webp">
+  <figcaption class="figure-caption">(The T2DM education and publicity activities carried out by the team in the Lanzhou community.)</figcaption>
+</figure>  
+
+  
+
+</div>
+</div>tt
+
+  </div>
+
+  <div class="home" style="position:relative;top:-3rem;overflow-x: hidden;">
+    
+  </div>
+
+  <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
+  <footer class="pt-5 pb-5 footer py-5 mt-5 bg-dark text-white">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-lg-8 col-xs-12">
+        <h4 class="mb-3">About Us</h4>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12 text-center">
+            <img src="https://static.igem.wiki/teams/4156/wiki/logo-lzu.png" height="100px" class="mr-4">
+            <a>Lanzhou University</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12" style="    position: relative;
+    left: 45px;">
+            <img src="https://static.igem.wiki/teams/5161/footer/footerlogo2.png" height="100px" class="mr-4">
+            <a>School of Stomatology Lanzhou University</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12" style="    position: relative;
+    left: 45px;">
+            <img src="https://static.igem.wiki/teams/5161/footer/footer.png" height="100px" class="mr-4">
+            <a>School of Stomatology Lanzhou University</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12 text-center">
+            <img src="https://static.igem.wiki/teams/4156/wiki/logo-impact-small.png" height="100px" class="mr-4">
+            <a>Research Corporation Technologies</a>
+          </div>
+          <div class="col-lg-6 col-xs-12">
+            <img src="https://static.igem.wiki/teams/4156/wiki/matlab-logo.png" height="100px" class="mr-4">
+            <a>Matlab</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-xs-12">
+        <h4 class="mt-lg-0 mt-sm-4 mb-3">Contact</h4>
+        <p>No. 222, Tianshui South Road, Chengguan District, Lanzhou City, Gansu Province,730000, P. R. China.</p>
+        <p><b>E-mail:</b> <a href="mailto:11@lzu.edu.cn">susu2969@foxmail.com</a></p>
+      </div>
+    </div>
+    <hr>
+    <!-- The following MUST be on every page: license information and link to the repository on gitlab.igem.org -->
+    <div class="row mt-4">
+      <div class="col">
+        <p class="mb-0"><small>© 2024 - Content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small></p>
+	      <p><small>The repository used to create this website is available at <a href="https://gitlab.igem.org/2024/lzu-medicine-china">gitlab.igem.org/2024/lzu-medicine-china</a>.</small></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="/static/bootstrap.bundle.min.js"></script>
+</body>
+</html>

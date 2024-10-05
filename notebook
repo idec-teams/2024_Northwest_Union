@@ -13,7 +13,7 @@
     <!-- Custom CSS -->
     <link href="/static/style.css" rel="stylesheet">
 
-    <title>Home | LZU-MEDICINE-CHINA - iGEM 2024</title>
+    <title>Notebook | LZU-MEDICINE-CHINA - iGEM 2024</title>
 
 </head>
 <body>
@@ -108,8 +108,8 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
-          <h1 class="display-4 text-white mt-5 mb-2">Home</h1>
-	        <p class="lead mb-5 text-white-50"></p>
+          <h1 class="display-4 text-white mt-5 mb-2">Notebook</h1>
+	        <p class="lead mb-5 text-white-50">Document the dates you worked on your project. This should be a detailed account of the work done each day for your project.</p>
         </div>
       </div>
     </div>
@@ -118,14 +118,48 @@
   <!-- Page Content -->
   <div class="container">
     
+
+<div class="row mt-4">
+  <div class="col">
+    <h2>April</h2>
+    <p>Initial thoughts are established, and preliminary experimental design is underway.  <br>
+      Suitable target genes will be selected, along with appropriate chassis organisms and types of transformation plasmids.
+      </p>
+    <hr>
+
+    <h2>May</h2>
+    <p>Synthesize the gene and construct recombinant plasmids.</p>
+    <hr>
+
+    <h2>June</h2>
+    <p>Prepare competent cells. Cultivate bacterial cultures and extract plasmids, followed by the transformation of the target gene into the chassis organism, Escherichia coli Nissle 1917 (ECN1917). Synthesize DLPC-encapsulated engineered bacteria.</p>
+
+    <hr>
+
+    <h2>July</h2>
+    <p>Verification of the functions of GLP-1 and BCoAT genes includes the following steps: Protein concentration in the supernatant will be measured using the BCA protein assay kit. For the determination of secreted proteins, the supernatant will be filtered through a 0.22 µm membrane. The expression of secreted proteins will be quantified according to the instructions of the GLP-1 ELISA kit. For Western blot analysis, log-phase bacterial cultures will be collected and centrifuged at 10,000 rpm for 5 minutes. The supernatant will be collected and precipitated for colony counting. Using anti-His and anti-Flag antibodies, Western blotting will be performed to detect the negative control group, positive control group, the transformed internal reference gene protein BCoAT, and the expression of recombinant GLP-1 protein.</p>
+    <hr>
+
+    <h2>August</h2>
+    <p>Assess bacterial viability using the CCK-8 assay and the DMAO/PI staining method for evaluating bacterial activity and cell death.</p>
+
+    <hr>
+
+    <h2>September</h2>
+    <p>Utilize transmission electron microscopy to observe DLPC-encapsulated engineered bacteria.</p>
+    <hr>
+
+    <h2>Others</h2>
+    <p>Our division of labor schedule.</p>
+    <img style=" width:60vw"alt="picture-9" class="rounded mx-auto d-block" src="https://static.igem.wiki/teams/5161/notebook/notebook.webp">
+
+  </div>
+</div>
+
   </div>
 
   <div class="home" style="position:relative;top:-3rem;overflow-x: hidden;">
     
-  <img style="width:99vw;margin:0;" src="https://static.igem.wiki/teams/5161/home/home1.jpg" alt="">
-  <img style="width:99vw;margin:0;" src="https://static.igem.wiki/teams/5161/home/newadd2.jpg" alt="">
-
-
   </div>
 
   <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
