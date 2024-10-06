@@ -17,10 +17,10 @@
     <h3>Result</h3>  
         <p>We established a series of glucose concentration gradients in L.B. liquid medium and agar plates, including L.B. agar plates without glucose, L.B. agar plates with 2.0 mmol/L glucose, L.B. agar plates with 5.0 mmol/L glucose, L.B. agar plates with 8.0 mmol/L glucose, and L.B. agar plates with 11.0 mmol/L glucose.</p>
     <p>Based on the results observed on the bacterial plates, both the chassis bacteria and the engineered bacteria grew normally on all L.B. agar plates with different glucose concentrations. The colony counts and colony morphology appeared normal without any abnormalities. This indicates that the experimental conditions we set up are reliable.</p>
-   <img alt="picture-5" class="rounded mx-auto d-block" src=" /proof-of-concept/image5.webp">
+   <img alt="picture-5" class="rounded mx-auto d-block" src="{{ url_for('static', filename = 'result/image1.webp') }}">
     
     <p>The results of the CCK-8 assay indicated that there were no significant differences in metabolic activity between the chassis bacteria and the engineered bacteria in L.B. medium with different glucose concentrations.</p>
-    <img alt="picture-6" class="rounded mx-auto d-block" src=" /proof-of-concept/image6.webp">
+    <img alt="picture-6" class="rounded mx-auto d-block" src="{{ url_for('static', filename = 'result/image2.webp') }}">
 
     
 
@@ -32,7 +32,7 @@
     <h2>2. Detection of target gene expression</h2>
     <hr>
     <p>We used the Western blot method to detect the expression of the target protein BCoAT (recombinant protein tag 5xHis) and the GLP-1 fusion protein (recombinant protein tag 3xFlag). The results indicated that BCoAT was expressed in both engineered bacteria, with a decrease in expression observed in the DLPC-encapsulated engineered bacteria. The molecular weight of BCoAT was approximately 46 kDa, consistent with the expected results. The expression trend of GLP-1 in both engineered bacteria was similar to that of BCoAT, with a molecular weight ranging between 74 to 76 kDa, also in agreement with the expected results.</p>
-    <img alt="picture-7" class="rounded mx-auto d-block" src=" /proof-of-concept/image7.webp">
+    <img alt="picture-7" class="rounded mx-auto d-block" src="{{ url_for('static', filename = 'result/image3.webp') }}">
     
 
   </div>
@@ -43,7 +43,7 @@
     <h2>3. BCoAT functional validation </h2>
     <hr>
     <p>For BCoAT, we measured the concentrations of three short-chain fatty acids, including acetate, propionate, and butyrate, using high-performance liquid chromatography. The results showed a significant increase in the production of these short-chain fatty acids in DLPC-encapsulated engineered bacteria compared to the chassis bacteria (control group). However, the butyrate production in DLPC-encapsulated engineered bacteria decreased compared to normal engineered bacteria, likely due to the larger molecular weight of butyrate, which increases the resistance required to pass through the phospholipid membrane. The above experimental results were all measured at a glucose concentration of 11 mmol/L.</p>
-    <img alt="picture-8" class="rounded mx-auto d-block" src=" /proof-of-concept/image8.webp">
+    <img alt="picture-8" class="rounded mx-auto d-block" src="{{ url_for('static', filename = 'result/image4.webp') }}">
     
 
 
@@ -57,8 +57,8 @@
     <p>The results of the glucose concentration gradient cultivation indicate that the efficiency of engineered bacteria in producing short-chain fatty acids is independent of glucose concentration, which aligns with our expected outcomes.</p>
     <p>The concentration of the GLP-1 recombinant protein secreted by the engineered bacteria increases with higher glucose concentrations.</p>
       
-      <img alt="picture-9" class="rounded mx-auto d-block" src=" /proof-of-concept/image9.webp">
-      <img alt="picture-10" class="rounded mx-auto d-block" src=" /proof-of-concept/image10.webp">
+      <img alt="picture-9" class="rounded mx-auto d-block" src="{{ url_for('static', filename = 'result/image5.webp') }}">
+      <img alt="picture-10" class="rounded mx-auto d-block" src="{{ url_for('static', filename = 'result/image6.webp') }}">
     
 
 
@@ -70,7 +70,7 @@
     <h2>5. Time-series release of GLP-1 recombinant protein.</h2>
     <hr>
 <p>The results indicate that the release of GLP-1 recombinant protein by the engineered bacteria gradually increases and stabilizes within 12 hours. The concentration of GLP-1 increases most rapidly during the bacterial logarithmic phase (6-8 hours), which is consistent with our expected outcomes.</p>
-<img alt="picture-11" class="rounded mx-auto d-block" src=" /proof-of-concept/image11.webp">
+<img alt="picture-11" class="rounded mx-auto d-block" src="{{ url_for('static', filename = 'result/image7.webp') }}">
 
 
   </div>
