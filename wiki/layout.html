@@ -1,19 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="https://static.igem.wiki/teams/5161/safety-anquan-1.ico"/>
-    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
-
-    <!-- Bootstrap CSS -->
     <link href="{{ url_for('static', filename = 'bootstrap.min.css') }}" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link href="{{ url_for('static', filename = 'style.css') }}" rel="stylesheet">
 
-    <title>{% block title %}{% endblock %} | LZU-MEDICINE-CHINA - iGEM 2024</title>
+    <title>{% block title %}{% endblock %}2024_Northwest_Union</title>
 
 </head>
 <body>
@@ -41,7 +34,6 @@
     {% block home %}{% endblock %}
   </div>
 
-  <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
   {% include 'footer.html' %}
 
   <!-- Bootstrap Bundle with Popper -->

@@ -4,7 +4,6 @@
 {% block lead %}{% endblock %}
 
 {% block home %}
-  <img style="width:99vw;margin:0;" src="https://static.igem.wiki/teams/5161/home/home1.jpg" alt="">
-  <img style="width:99vw;margin:0;" src="https://static.igem.wiki/teams/5161/home/newadd2.jpg" alt="">
-
+  <img style="width:99vw;margin:0;" src="{{ url_for('static', filename = 'home/home1.jpg') }}" alt="">
+  <img style="width:99vw;margin:0;" src="{{ url_for('static', filename = 'home/home2.jpg') }}" alt="">
 {% endblock %}

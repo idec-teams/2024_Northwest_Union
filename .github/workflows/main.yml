@@ -3,7 +3,7 @@ name: Deploy Flask App to GitHub Pages
 on:
   push:
     branches:
-      - flask  # 在 main 分支推送时触发
+      - master  # 在 main 分支推送时触发
 
 jobs:
   build:
