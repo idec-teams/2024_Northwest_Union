@@ -44,7 +44,7 @@ body {
 .bd-callout-warning { border-left-color:#f0ad4e }
 .bd-callout-danger { border-left-color:#d9534f }
 
-img:not(footer img){
+img:not(footer img,.home img){
     border:solid 2px white;
     width:50vw;
     margin:2vh 0;
