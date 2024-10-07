@@ -5,22 +5,20 @@ window.onload = () => {
 
     judgeToTop(topGap,bgHero[0]);
     const body = document.getElementsByTagName("body")[0];
-    console.log(body)
 
-    console.log(bgHero[0]);
+    //回到顶部
     if(bgHero[0].getElementsByClassName("lead")[0].innerHTML){
         bgHero[0].style.top = "-198px"
     }
-
     body.onscroll = () => {
         topGap = bgHero[0].getBoundingClientRect().top;
         judgeToTop(topGap,bgHero[0]);
     }
-
     toTop.addEventListener("click",() => {
         console.log("Asd")
         document.documentElement.scrollTo(0,0)
     })
+
 
 
 }
