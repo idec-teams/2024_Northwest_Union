@@ -17,14 +17,21 @@ body {
     /* + 48px */
     background-size:cover;
  }
+ .bg-heor .container{
+    z-index:99;
+ }
  .bg-hero h1{
     color:white;
     font-weight: 500;
     text-shadow: #000000 1px 1px 3px;
+    z-index:99;
+
  }
  .bg-hero p{
     color:white;
     text-shadow: 2px 2px 2px black;
+    z-index:99;
+
  }
 
 /* CALLOUT */
@@ -38,6 +45,7 @@ body {
 .bd-callout-danger { border-left-color:#d9534f }
 
 img:not(footer img){
+    border:solid 2px white;
     width:50vw;
     margin:2vh 0;
     box-shadow: 3px 3px 3px #000000;
@@ -57,12 +65,18 @@ footer img{
     width:auto
 }
 .to-top{
+    height:48px;
     position:absolute;
-    right:100px;
-    bottom:8px;
+    padding-right:100px;
+    padding-top:10px;
+    bottom:-0;
     display:none;
     filter: drop-shadow(3px 3px 4px black);
     z-index:99;
+    width: 100%;
+    text-align: right;
+    backdrop-filter: blur(5px);
+
 }
 .home{
     z-index: -10
@@ -74,7 +88,8 @@ iframe{
 .blur-layer{
     margin:0;
     padding:0;
-    /* backdrop-filter: blur(5px); */
+    backdrop-filter: blur(5px);
+    z-index:-99;
 }
 
 /* footer */
