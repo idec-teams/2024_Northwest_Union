@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
   
 {% block title %}BioBrick Parts{% endblock %}
-{% block backgroundImage %}url(../static/parts/image1.webp){% endblock %}
+{% block backgroundImage %}{{ url_for('static', filename = 'parts/image1.webp') }}{% endblock %}
 
 {% block lead %}You can learn our parts’ information which we uploaded to iDECs Registry of Standard Biological Parts.{% endblock %}
 

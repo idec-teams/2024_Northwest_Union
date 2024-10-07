@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
   
 {% block title %}Notebook{% endblock %}
-{% block backgroundImage %}url(../static/notebook/image1.webp){% endblock %}
+{% block backgroundImage %}{{ url_for('static', filename = 'notebook/image1.webp') }}{% endblock %}
 
 {% block lead %}{% endblock %}
 

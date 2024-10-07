@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
   
 {% block title %}Integrated human practice{% endblock %}
-{% block backgroundImage %}url(../static/hp/image1.webp){% endblock %}
+{% block backgroundImage %}{{ url_for('static', filename = 'hp/image1.webp') }}{% endblock %}
 
 {% block lead %}{% endblock %}
 

@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
   
 {% block title %}Contributions{% endblock %}
-{% block backgroundImage %}url(../static/contributions/image1.webp){% endblock %}
+{% block backgroundImage %}{{ url_for('static', filename = 'contributions/image1.webp') }}{% endblock %}
 
 {% block lead %}{% endblock %}
 

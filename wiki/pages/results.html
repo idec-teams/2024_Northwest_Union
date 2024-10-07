@@ -2,7 +2,7 @@
   
 
 {% block title %}Results{% endblock %}
-{% block backgroundImage %}url(../static/result/image3.webp){% endblock %}
+{% block backgroundImage %}{{ url_for('static', filename = 'result/image3.webp') }}{% endblock %}
 {% block lead %}{% endblock %}
 
 {% block page_content %}

@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block title %}Entrepreneurship{% endblock %}
-{% block backgroundImage %}url(../static/entrepreneurship/image1.webp){% endblock %}
+{% block backgroundImage %}{{ url_for('static', filename = 'entrepreneurship/image1.webp') }}{% endblock %}
 
 {% block lead %}Product development idea: the birth and growth of SugarGuardian.{% endblock %}
 
