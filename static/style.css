@@ -2,7 +2,6 @@ body {
     padding-top: 56px; 
     background-attachment: fixed;
     background-image: url("../static/bg.webp");
-
 }
 .left-aligned { margin-left: auto; }
 .bg-dark { 
@@ -56,6 +55,11 @@ footer img{
 }
 .home{
     z-index: -10
+}
+iframe{
+    box-shadow: 3px 3px 3px #000000;
+    border:solid 2px white;
+
 }
 
 /* footer */
