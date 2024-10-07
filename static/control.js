@@ -15,12 +15,8 @@ window.onload = () => {
         judgeToTop(topGap,bgHero[0]);
     }
     toTop.addEventListener("click",() => {
-        console.log("Asd")
         document.documentElement.scrollTo(0,0)
     })
-
-
-
 }
 
 function judgeToTop(topGap,bgHero){
