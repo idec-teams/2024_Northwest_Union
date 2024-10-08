@@ -5,12 +5,13 @@
 
 {% block page_content %}
 <!-- Primary Pis -->
+ <div class="members-page">
 <div class="row justify-content-evenly">
   <h2>Primary PI</h2>
   <hr>
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image1.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image1.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:20vw">
       <figcaption class="figure-caption">Yatao Liu</figcaption>
       <figcaption class="figure-caption">Yatao Liu, chief physician, Secretary of the second Party General Branch of the First Hospital of Lanzhou University, Director of the Foreign Cooperation and Exchange Office of the First Hospital of Lanzhou University, Deputy director of the Trauma Center of the First Hospital of Lanzhou University, deputy director of the Department of Anesthesia Surgery of the First Hospital of Lanzhou University (presiding over the work), director of the first Department of anesthesia Surgery and secretary of the Party branch of anesthesia Surgery, professional master's degree supervisor.</figcaption>
     </figure>
@@ -21,9 +22,12 @@
 <div class="row justify-content-evenly">
   <h2>Secondary PI</h2>
   <hr>
+
+  <div class="secondary-pi-members-outer">
+
   <div class="col-4">
     <figure class="figure">
-      <img src=" {{ url_for('static', filename = 'members/image2.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" style="width:30vw">
+      <img src=" {{ url_for('static', filename = 'members/image2.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" >
       <figcaption class="figure-caption">Xiaodong Xie</figcaption>
       <figcaption class="figure-caption">Professor, Director of Genetics Institute of Lanzhou University, Director of Genetic Medicine Center of Lanzhou University, Director of Genomic Medicine Industry Technology Center of Gansu Province, academic doctoral supervisor; In 2005, he was selected into the New Century Outstanding Talents Support Program of the Ministry of Education, won the title of the sixth "National Excellent Scientific and Technological Worker" in 2014, the title of Guohua Leading Talent of Lanzhou University in 2015, and the second National Excellence Award in 2020.
         <br>Research direction:
@@ -34,7 +38,7 @@
 
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image3.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image3.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" >
       <figcaption class="figure-caption">Jianming Tang</figcaption>
       <figcaption class="figure-caption">Chief physician/professor, Deputy Director of Radiotherapy Department of LAN Daichi College/Deputy Director of Medical Frontier Innovation Research Center, professional and academic postgraduate tutor. 2021 Gansu Province Outstanding Youth Science Fund.
         <br>Research direction:
@@ -46,7 +50,7 @@
 
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image4.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image4.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" >
       <figcaption class="figure-caption">Weilin Jin</figcaption>
       <figcaption class="figure-caption">Researcher/Professor, Executive Director, Medical Frontier Innovation Research Center, academic doctoral supervisor, academic Master supervisor.
         <br>Research direction:
@@ -58,7 +62,7 @@
 
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image5.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image5.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" >
       <figcaption class="figure-caption">Xiao Lyu</figcaption>
       <figcaption class="figure-caption">Doctor of Medicine, lecturer, attending physician, technical pacesetter of Gansu Province, young talents of Clinical medicine of Lanzhou University, teaching backbone of young and middle-aged people of Lanzhou University, Secretary of Expert Committee of Department of Obstetrics and Gynecology of Lanzhou University
         <br>Research direction:Clinical and basic research of gynecological tumor and endometriosis.
@@ -68,12 +72,12 @@
   </div>
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image6.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image6.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="picture-3" >
       <figcaption class="figure-caption">Chao Li</figcaption>
       <figcaption class="figure-caption">Chief physician, graduated from Guangxi Medical University clinical medicine major. He has been engaged in intensive care medicine and emergency medicine for more than 20 years, and has undertaken a lot of technical and teaching work in the department. Proficient in the diagnosis, rescue and treatment of acute and critical diseases related to emergency medicine and intensive care medicine, such as sepsis, cardiopulmonary resuscitation, shock, ARDS, MODS, induced arrhythmia, diabetes, coma, DIC, severe pancreatitis, multiple trauma, acute poisoning, and severe hand, foot and mouth disease; Specializes in the diagnosis and treatment of psychiatric emergencies. Continue to learn the new technology and new progress at home and abroad, and carry out scientific research. Responsible for the completion of a provincial project, currently participating in a provincial project. In the past 5 years, he has published a number of professional academic papers in domestic core and well-known journals.</figcaption>
     </figure>
   </div>
-
+</div>
 </div>
 
 
@@ -83,14 +87,14 @@
   <hr>
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image7.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image7.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Zhaoyin Su</figcaption>
       <figcaption class="figure-caption">Hello, everyone! I come from the hometown of smelly and flavorful snail powder - Liuzhou, Guangxi. I am passionate about exploring this world and participating in pioneering and innovative research. In terms of honor, I have served as the head of the national college students' innovation and entrepreneurship project, published SCI papers as the first author. Swimming in the ocean of science gives me infinite joy. I am honored to be the captain of Lanzhou University iDEC team this year. Without further ado, let's create brilliance together this year!</figcaption>
     </figure>
   </div>
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image8.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image8.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Yanzong Zhao</figcaption>
       <figcaption class="figure-caption">Piano level 10, slight research on music theory, like playing and singing. He also has a certain talent for photography and loves outdoor travel. The motto is read ten thousand books, travel ten thousand miles. Scientific research can not be done in three days, perseverance is the foundation of victory. I hope that in the next half year of iDEC competition, we can deeply learn the research methods in the field of synthetic biology together, and shed a drop of sweat for the progress of human science.</figcaption>
     </figure>
@@ -101,26 +105,26 @@
 <div class="row justify-content-evenly">
   <h2>Student</h2>
   <hr>
+  <div class="student-members-outer">
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image9.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image9.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Xiangyu Wang</figcaption>
       <figcaption class="figure-caption">Hello everyone, my name is Wang Xiangyu, from the First Clinical Medical College of Lanzhou University. I like to look at things and the underlying laws of society from a philosophical perspective, and I am also keen to explore various mysteries of human diseases. Love badminton, table tennis and other sports in life. I am very glad to be able to play my value in Northwest Union as the team leader of HP, and I hope to make my own modest contribution in it!</figcaption>
     </figure>
   </div>
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image10.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image10.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Mengwei Xu</figcaption>
       <figcaption class="figure-caption">
         My name is Xu Mengwei, from Yantai, Shandong Province. My major is visual communication design. I hope I can play my skills in the team
       </figcaption>
     </figure>
   </div>
-
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image11.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image11.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Hehao Ma</figcaption>
       <figcaption class="figure-caption">From Xi 'an, Shaanxi, like badminton tennis, leisure time like to play video games. I am very glad to be a member of the LZU-CHINA 2024 team, and I hope to learn and make progress together with you in the future and make contributions to the team
       </figcaption>
@@ -128,7 +132,7 @@
   </div>
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image12.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image12.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Yifan Wang</figcaption>
       <figcaption class="figure-caption">Love life, always enjoy exploring the unknown things, optimistic personality, can always maintain high morale. It is a great honor to join the Northwest Union team, and we look forward to achieving a satisfactory result
       </figcaption>
@@ -136,63 +140,56 @@
   </div>
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image13.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image13.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Yifeng Lin</figcaption>
       <figcaption class="figure-caption">From the clinical medicine major of the First Clinical Medical College, he has won many awards such as the national Silver Award of China International Innovation Competition</figcaption>
     </figure>
   </div>
-
-
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image16.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image16.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Kaiyan Liu</figcaption>
       <figcaption class="figure-caption">From Tangshan, Hebei, like to travel, watch movies, chat, a heavy hot pot lovers, like to explore the unknown everything, hope to create good results with everyone.</figcaption>
     </figure>
   </div>
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image17.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image17.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Wenxuan Shao</figcaption>
       <figcaption class="figure-caption">Like basketball, table tennis, guitar, all kinds of strange knowledge to understand a little. The research side is interested in biomedicine, regenerative medicine and so on. I am very happy and excited to participate in iDEC with you this time, and I hope to work together with you to make a great project. We also hope that our efforts can make some contributions to synthetic biology.</figcaption>
     </figure>
   </div>
   <div class="col-4">
     <figure class="figure">
-      <img src=" {{ url_for('static', filename = 'members/image18.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src=" {{ url_for('static', filename = 'members/image18.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Xuanqiao Wang</figcaption>
       <figcaption class="figure-caption">Favorite sport is football, usually like to play mc and radiation shelter (a little niche). Strong practical ability, once won the provincial second prize in physics competition in high school. It is a great honor to join the iDEC team and hope to work together to achieve good results.</figcaption>
     </figure>
   </div>
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image19.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image19.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Qi Bi</figcaption>
       <figcaption class="figure-caption">Cheerful personality, wide range of interests, keen to try all kinds of new things. I love clinical medicine very much and hope to contribute my strength to human health with my own efforts. It is a great honor to join the team of Northwest Union, and work hard together to make progress.</figcaption>
     </figure>
   </div>
-
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image20.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image20.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Meiyin Zhou</figcaption>
       <figcaption class="figure-caption">Life is broad, never set limits for yourself. Like to travel, see more scenery, meet more people. Nice to meet all of you. Please advise.</figcaption>
     </figure>
   </div>
-
-
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image21.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image21.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Shenhan Yu</figcaption>
       <figcaption class="figure-caption">Love tennis, swimming, and other sports. Like painting, movies. It is a great honor to join the iDEC team this year, which is a challenge and exercise for me. I hope we can create good results together.</figcaption>
     </figure>
   </div>
-
-
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image23.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image23.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Chenchen Li</figcaption>
       <figcaption class="figure-caption">A new medical student from Suzhou, Jiangsu province, has a wide range of interests but is not good at it. Love to travel and write poems, good at guitar singing, proficient in strategy games. He has won the second prize of the provincial biology competition and loves to explore the secrets of life. Although the ability and seniority are very shallow compared with other seniors, I will still strive to contribute my own strength to Northwest Union!
 
@@ -201,54 +198,47 @@
   </div>
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image24.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image24.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Fan Yang</figcaption>
       <figcaption class="figure-caption">Like to explore and learn new things, cheerful personality, with a certain experience in interviewing and writing. It is the first time to join iDEC related competitions, I hope I can contribute my strength, progress together with everyone, work together, and achieve good results
       </figcaption>
     </figure>
   </div>
-
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image26.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image26.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Yingqi Ma</figcaption>
       <figcaption class="figure-caption">Hello everyone, I am curious about all kinds of interesting knowledge, from astronomy and geography to history and culture, from science and technology to humanities and social sciences. Academically, I have a keen interest in medical research. I have participated in the university's innovation project and the cross-over project of new medicine, and I have a good ability to speak and listen English. I believe that our research will help us solve many medical problems and make important contributions to the development of human health. Therefore, I am very much looking forward to participating in this iDEC project and working together with you in this iDEC competition to achieve new achievements!
       </figcaption>
     </figure>
   </div>
-
-
-
-
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image31.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image31.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Yibo Yu</figcaption>
       <figcaption class="figure-caption">Slogan：Are there any better parts we can design ?
 
       </figcaption>
     </figure>
   </div>
-
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image37.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image37.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Zhongyu Yang</figcaption>
       <figcaption class="figure-caption">From Guangdong, grade 21 math base class, like statistical machine learning and research some boring things, hope to make great results with you!
       </figcaption>
     </figure>
   </div>
-
   <div class="col-4">
     <figure class="figure">
-      <img src="{{ url_for('static', filename = 'members/image44.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." style="width:30vw">
+      <img src="{{ url_for('static', filename = 'members/image44.webp') }}" class="rounded mx-auto d-block figure-img img-fluid rounded" alt="..." >
       <figcaption class="figure-caption">Qicheng Li</figcaption>
       <figcaption class="figure-caption">21 years old, student, School of Stomatology, Lanzhou University</figcaption>
     </figure>
   </div>
-
+</div>
 </div>
 
-
+</div>
 
 {% endblock %}
