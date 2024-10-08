@@ -92,6 +92,53 @@ iframe{
     z-index:-99;
 }
 
+.table-container{
+    background-color: white;
+}
+
+
+/* members */
+/* image */
+.members-page figure img{
+    width:20vw;
+}
+/* name */
+.members-page figure figcaption:first-of-type{
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: #000000 2px 2px 3px;
+    color: white;
+}
+/* self-introduction */
+.members-page figure figcaption:last-child{
+    color: black;
+    /* text-shadow: #ffffff 1px 1px 1px; */
+    border-radius: 10px;
+    backdrop-filter:blur(10px);
+    z-index:-10;
+}
+
+.members-page figure figcaption{
+    position: relative;
+    z-index: -10;
+    padding:0 2vw;
+}
+
+.secondary-pi-members-outer{
+    column-width:25vw;
+}
+.secondary-pi-members-outer>div{
+    width:20vw; /*宽度根据实际情况调节，应与上面一致*/
+    overflow:auto; /*防止内容溢出导致布局错位*/
+}
+
+.student-members-outer{
+    column-width:20vw;
+}
+.student-members-outer>div{
+    width:20vw; /*宽度根据实际情况调节，应与上面一致*/
+    overflow:auto; /*防止内容溢出导致布局错位*/
+}
 /* footer */
 footer a { color: white; font-weight: bold; text-decoration: none; }
 footer a:hover { color: white; text-decoration: underline; }
