@@ -30,5 +30,5 @@ def pages(page):
     return render_template('pages/' + page.lower() + '.html')
 
 if __name__ == "__main__":
-    freezer.freeze()
-    # app.run(port=8080,debug=True)
+    # freezer.freeze()
+    app.run(port=8080,debug=True)
