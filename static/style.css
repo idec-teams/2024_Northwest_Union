@@ -33,7 +33,10 @@ body {
     z-index:99;
 
  }
-
+hr{
+    position: relative;
+    z-index: -10;
+}
 /* CALLOUT */
 .bd-callout { padding:1.25rem; margin-top:1.25rem; margin-bottom:1.25rem; border:1px solid #e9ecef; border-left-width:.25rem; border-radius:.25rem }
 .bd-callout h4 { margin-bottom:.25rem }
