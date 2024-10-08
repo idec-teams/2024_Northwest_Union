@@ -139,6 +139,13 @@ iframe{
     width:20vw; /*宽度根据实际情况调节，应与上面一致*/
     overflow:auto; /*防止内容溢出导致布局错位*/
 }
+
+
+/* report  */
+.table-container  .table{
+    box-shadow: 3px 3px 3px #000000;
+    border:solid 1px black;
+}
 /* footer */
 footer a { color: white; font-weight: bold; text-decoration: none; }
 footer a:hover { color: white; text-decoration: underline; }
